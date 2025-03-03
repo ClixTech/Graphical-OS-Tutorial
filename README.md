@@ -24,15 +24,15 @@ make menuconfig
 ## 2.1 Kernel Configuration
 In the menuconfig interface, configure the kernel with the following settings:
 
-Device Drivers > Graphics Support > Cirrus [*]
-Device Drivers > Graphics Support > DRM Driver for VMware Virtual GPU [*]
-Device Drivers > Graphics Support > Laptop Hybrid Graphics [*]
-Device Drivers > Graphics Support > Intel Xe Graphics [M]
-Device Drivers > Graphics Support > Virtual Box Graphics Card [*]
-(Deprecated) Device Drivers > Graphics Support > Simple framebuffer driver [*]
-Device Drivers > Graphics Support > Frame Buffer Devices > Support for frame buffer device drivers [*]
-Device Drivers > Graphics Support > Bootup logo [*]
-Device Drivers > Generic Input Layer (mousedev) > Mouse interface [*]
+Device Drivers > Graphics Support > Cirrus *
+Device Drivers > Graphics Support > DRM Driver for VMware Virtual GPU *
+Device Drivers > Graphics Support > Laptop Hybrid Graphics *
+Device Drivers > Graphics Support > Intel Xe Graphics M
+Device Drivers > Graphics Support > Virtual Box Graphics Card *
+~~(Deprecated) Device Drivers > Graphics Support > Simple framebuffer driver *~~
+Device Drivers > Graphics Support > Frame Buffer Devices > Support for frame buffer device drivers *
+Device Drivers > Graphics Support > Bootup logo *
+Device Drivers > Generic Input Layer (mousedev) > Mouse interface *
 Once you're done, save and exit.
 
 3. Build the Kernel
