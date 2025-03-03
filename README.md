@@ -8,6 +8,7 @@ We will need several dependencies to set up the Linux kernel and tools for build
 
 ```bash
 sudo apt install wget bzip2 libncurses-dev flex bison bc libelf-dev libssl-dev xz-utils autoconf gcc make libtool git vim libpng-dev libfreetype-dev g++ extlinux nano
+```bash
 2. Set Up Linux Kernel
 Create a new directory for your Linux kernel, download the kernel source, and configure it:
 
