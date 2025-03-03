@@ -35,7 +35,7 @@ Device Drivers > Graphics Support > Bootup logo *<br>
 Device Drivers > Generic Input Layer (mousedev) > Mouse interface *<br>
 Once you're done, save and exit.
 
-3. Build the Kernel
+## 3. Build the Kernel
 Now, let's build the kernel. This may take around 20-40 minutes depending on your system.
 
 ```bash
